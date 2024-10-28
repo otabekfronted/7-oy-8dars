@@ -29,28 +29,28 @@ function CurrencyConverter() {
     };
 
     return (
-        <div className=" mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg">
+        <div className="container mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg">
             <div className="grid grid-cols-4 gap-1 rounded-full border border-solid border-gray-250 p-2 md:gap-2">
                 <a
-                    className="w-80 flex items-center justify-center gap-2  bg-gray-800 active:bg-gray-800 hover:opacity-70  p-4 duration-200 rounded-full text-white text-xl"
+                    className="w-70 flex items-center justify-center gap-2  bg-gray-800 active:bg-gray-800 hover:opacity-70  p-4 duration-200 rounded-full text-white text-xl"
                     href="#"
                 >
                     <PiCoinsBold /> <span>Convert</span>
                 </a>
                 <a
-                    className="w-80 flex items-center justify-center gap-2 active:bg-slate-800 hover:opacity-70 hover:border-2 hover:border-gray-800 border-2 border-white duration-200 p-4 rounded-full text-slate-500 font-medium text-xl"
+                    className="w-70 flex items-center justify-center gap-2 active:bg-slate-800 hover:opacity-70 hover:border-2 hover:border-gray-800 border-2 border-white duration-200 p-4 rounded-full text-slate-500 font-medium text-xl"
                     href="#"
                 >
                     <BsFillSendFill /> <span>Send</span>
                 </a>
                 <a
-                    className="w-80 flex items-center justify-center gap-2 active:bg-slate-800 hover:opacity-70 hover:border-2 hover:border-gray-800 border-2 border-white duration-200 p-4 rounded-full text-slate-500 font-medium text-xl"
+                    className="w-70 flex items-center justify-center gap-2 active:bg-slate-800 hover:opacity-70 hover:border-2 hover:border-gray-800 border-2 border-white duration-200 p-4 rounded-full text-slate-500 font-medium text-xl"
                     href="#"
                 >
                     <PiChartLineFill /> <span>Charts</span>
                 </a>
                 <a
-                    className="w-80 flex items-center justify-center gap-2 active:bg-slate-800 hover:opacity-70 hover:border-2 hover:border-gray-800 border-2 border-white duration-200 p-4 rounded-full text-slate-500 font-medium text-xl"
+                    className="w-70 flex items-center justify-center gap-2 active:bg-slate-800 hover:opacity-70 hover:border-2 hover:border-gray-800 border-2 border-white duration-200 p-4 rounded-full text-slate-500 font-medium text-xl"
                     href="#"
                 >
                     <HiBellAlert /> <span>Alerts</span>
@@ -76,7 +76,7 @@ function CurrencyConverter() {
 
                 <div className="flex flex-col">
                     <div
-                        className={`relative h-[95px] w-[438px] rounded-lg border border-solid border-gray-250 bg-white px-4 py-2 text-2xl font-semibold text-greyblue-400 hover:bg-gray-150 ${
+                        className={`relative h-[95px] w-[395px] rounded-lg border border-solid border-gray-250 bg-white px-4 py-2 text-2xl font-semibold text-greyblue-400 hover:bg-gray-150 ${
                             selectedFrom
                                 ? "focus-within:outline focus-within:outline-2 focus-within:outline-blue-400"
                                 : ""
@@ -102,7 +102,7 @@ function CurrencyConverter() {
 
                 <div className="flex flex-col">
                     <div
-                        className={`relative h-[95px] w-[438px] rounded-lg border border-solid border-gray-250 bg-white px-4 py-2 text-2xl font-semibold text-greyblue-400 hover:bg-gray-150 ${
+                        className={`relative h-[95px] w-[395px] rounded-lg border border-solid border-gray-250 bg-white px-4 py-2 text-2xl font-semibold text-greyblue-400 hover:bg-gray-150 ${
                             selectedTo
                                 ? "focus-within:outline focus-within:outline-2 focus-within:outline-blue-400"
                                 : ""
